@@ -55,7 +55,7 @@
 			<service
 				android:name="com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService"
 				android:enabled="true"
-				android:exported="true"
+				android:exported="false"
 				android:isolatedProcess="false"
 				android:label="iBeacon" />
 			<service
@@ -74,7 +74,7 @@
 
 			<service
 				android:name="com.pushwoosh.location.network.GeoLocationServiceApi21"
-				android:exported="true"
+				android:exported="false"
 				android:permission="android.permission.BIND_JOB_SERVICE" />
 
 			<receiver android:name="com.pushwoosh.location.geofencer.GeofenceReceiver">
